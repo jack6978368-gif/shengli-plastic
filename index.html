@@ -13,7 +13,9 @@
   <header class="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-slate-200">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
       <div class="flex items-center gap-3">
-        <div class="w-9 h-9 bg-emerald-600 rounded-lg flex items-center justify-center text-white font-bold text-lg">S</div>
+        <div class="w-10 h-10 bg-emerald-600 rounded-lg flex items-center justify-center text-white font-bold text-xl overflow-hidden shadow-sm">
+          <img src="./images/logo.png" alt="S" class="w-full h-full object-contain p-1" onerror="this.style.display='none'">
+        </div>
         <div>
           <span class="text-lg font-bold tracking-tight text-slate-900 block leading-tight">盛利塑胶</span>
           <span class="text-xs text-slate-500 font-medium tracking-wider">SHENGLI PLASTIC</span>
@@ -77,7 +79,7 @@
     </div>
   </section>
 
-  <!-- 主营颗粒（真实对应照片） -->
+  <!-- 主营颗粒系列 (使用真实切片样品) -->
   <section id="products" class="py-16 bg-slate-100">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex flex-col md:flex-row md:items-end justify-between mb-8">
@@ -85,7 +87,6 @@
           <h2 class="text-2xl sm:text-3xl font-bold text-slate-900 mb-2">主营颗粒系列 / Main Materials</h2>
           <p class="text-slate-500 text-sm">规格以批次为准，支持先取样品上机试模</p>
         </div>
-        <!-- 切换分类按钮 -->
         <div class="flex gap-2 mt-4 md:mt-0">
           <button onclick="filterCat('all')" class="cat-btn px-4 py-1.5 rounded-lg text-sm font-medium bg-slate-900 text-white">全部</button>
           <button onclick="filterCat('abs')" class="cat-btn px-4 py-1.5 rounded-lg text-sm font-medium bg-white text-slate-600 hover:bg-slate-200">ABS</button>
@@ -98,8 +99,8 @@
 
         <!-- 1. ABS 黑色 -->
         <div class="p-card abs bg-white rounded-xl border border-slate-200 overflow-hidden shadow-sm flex flex-col">
-          <div class="h-64 bg-slate-50 p-4 flex items-center justify-center">
-            <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=600&q=80" alt="Black Recycled ABS" class="max-h-full w-full object-cover rounded-lg">
+          <div class="h-64 bg-slate-50 p-3 flex items-center justify-center">
+            <img src="./images/abs-black.png" alt="Black Recycled ABS" class="max-h-full max-w-full object-contain rounded-lg">
           </div>
           <div class="p-5 flex-1 flex flex-col justify-between">
             <div>
@@ -116,8 +117,8 @@
 
         <!-- 2. ABS 米黄 -->
         <div class="p-card abs bg-white rounded-xl border border-slate-200 overflow-hidden shadow-sm flex flex-col">
-          <div class="h-64 bg-slate-50 p-4 flex items-center justify-center">
-            <img src="https://images.unsplash.com/photo-1590736969955-71cc94801759?auto=format&fit=crop&w=600&q=80" alt="Beige Recycled ABS" class="max-h-full w-full object-cover rounded-lg">
+          <div class="h-64 bg-slate-50 p-3 flex items-center justify-center">
+            <img src="./images/abs-beige.png" alt="Beige Recycled ABS" class="max-h-full max-w-full object-contain rounded-lg">
           </div>
           <div class="p-5 flex-1 flex flex-col justify-between">
             <div>
@@ -134,8 +135,8 @@
 
         <!-- 3. ABS 灰色 -->
         <div class="p-card abs bg-white rounded-xl border border-slate-200 overflow-hidden shadow-sm flex flex-col">
-          <div class="h-64 bg-slate-50 p-4 flex items-center justify-center">
-            <img src="https://images.unsplash.com/photo-1579546929518-9e396f3cc809?auto=format&fit=crop&w=600&q=80" alt="Grey Recycled ABS" class="max-h-full w-full object-cover rounded-lg">
+          <div class="h-64 bg-slate-50 p-3 flex items-center justify-center">
+            <img src="./images/abs-grey.png" alt="Grey Recycled ABS" class="max-h-full max-w-full object-contain rounded-lg">
           </div>
           <div class="p-5 flex-1 flex flex-col justify-between">
             <div>
@@ -152,8 +153,8 @@
 
         <!-- 4. PS 白色 -->
         <div class="p-card ps bg-white rounded-xl border border-slate-200 overflow-hidden shadow-sm flex flex-col">
-          <div class="h-64 bg-slate-50 p-4 flex items-center justify-center">
-            <img src="https://images.unsplash.com/photo-1533090161767-e6ffed986c88?auto=format&fit=crop&w=600&q=80" alt="White Recycled PS" class="max-h-full w-full object-cover rounded-lg">
+          <div class="h-64 bg-slate-50 p-3 flex items-center justify-center">
+            <img src="./images/ps-white.png" alt="White Recycled PS" class="max-h-full max-w-full object-contain rounded-lg">
           </div>
           <div class="p-5 flex-1 flex flex-col justify-between">
             <div>
@@ -170,8 +171,8 @@
 
         <!-- 5. PS 黑色 -->
         <div class="p-card ps bg-white rounded-xl border border-slate-200 overflow-hidden shadow-sm flex flex-col">
-          <div class="h-64 bg-slate-50 p-4 flex items-center justify-center">
-            <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=600&q=80" alt="Black Recycled PS" class="max-h-full w-full object-cover rounded-lg">
+          <div class="h-64 bg-slate-50 p-3 flex items-center justify-center">
+            <img src="./images/ps-black.png" alt="Black Recycled PS" class="max-h-full max-w-full object-contain rounded-lg">
           </div>
           <div class="p-5 flex-1 flex flex-col justify-between">
             <div>
@@ -188,8 +189,8 @@
 
         <!-- 6. PS 奶白/本白 -->
         <div class="p-card ps bg-white rounded-xl border border-slate-200 overflow-hidden shadow-sm flex flex-col">
-          <div class="h-64 bg-slate-50 p-4 flex items-center justify-center">
-            <img src="https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=600&q=80" alt="Off-White Recycled PS" class="max-h-full w-full object-cover rounded-lg">
+          <div class="h-64 bg-slate-50 p-3 flex items-center justify-center">
+            <img src="./images/ps-offwhite.png" alt="Off-White Recycled PS" class="max-h-full max-w-full object-contain rounded-lg">
           </div>
           <div class="p-5 flex-1 flex flex-col justify-between">
             <div>
@@ -206,8 +207,8 @@
 
         <!-- 7. PP 黑色 -->
         <div class="p-card pp bg-white rounded-xl border border-slate-200 overflow-hidden shadow-sm flex flex-col">
-          <div class="h-64 bg-slate-50 p-4 flex items-center justify-center">
-            <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=600&q=80" alt="Black Recycled PP" class="max-h-full w-full object-cover rounded-lg">
+          <div class="h-64 bg-slate-50 p-3 flex items-center justify-center">
+            <img src="./images/pp-black.png" alt="Black Recycled PP" class="max-h-full max-w-full object-contain rounded-lg">
           </div>
           <div class="p-5 flex-1 flex flex-col justify-between">
             <div>
@@ -224,8 +225,8 @@
 
         <!-- 8. PP 浮水瓷白 -->
         <div class="p-card pp bg-white rounded-xl border border-slate-200 overflow-hidden shadow-sm flex flex-col">
-          <div class="h-64 bg-slate-50 p-4 flex items-center justify-center">
-            <img src="https://images.unsplash.com/photo-1579546929518-9e396f3cc809?auto=format&fit=crop&w=600&q=80" alt="Porcelain White PP" class="max-h-full w-full object-cover rounded-lg">
+          <div class="h-64 bg-slate-50 p-3 flex items-center justify-center">
+            <img src="./images/pp-white.png" alt="Porcelain White PP" class="max-h-full max-w-full object-contain rounded-lg">
           </div>
           <div class="p-5 flex-1 flex flex-col justify-between">
             <div>
@@ -242,8 +243,8 @@
 
         <!-- 9. PP 深灰 -->
         <div class="p-card pp bg-white rounded-xl border border-slate-200 overflow-hidden shadow-sm flex flex-col">
-          <div class="h-64 bg-slate-50 p-4 flex items-center justify-center">
-            <img src="https://images.unsplash.com/photo-1590736969955-71cc94801759?auto=format&fit=crop&w=600&q=80" alt="Dark Grey PP" class="max-h-full w-full object-cover rounded-lg">
+          <div class="h-64 bg-slate-50 p-3 flex items-center justify-center">
+            <img src="./images/pp-grey.png" alt="Dark Grey PP" class="max-h-full max-w-full object-contain rounded-lg">
           </div>
           <div class="p-5 flex-1 flex flex-col justify-between">
             <div>
@@ -280,7 +281,7 @@
         </div>
       </div>
       <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 text-center flex flex-col items-center justify-center">
-        <img src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https://wa.me/601172218353" alt="WhatsApp QR Code" class="w-44 h-44 bg-white p-2 rounded-xl shadow-sm border border-slate-200 mb-4">
+        <img src="./images/whatsapp-qr.png" alt="WhatsApp QR Code" class="w-44 h-44 bg-white p-2 rounded-xl shadow-sm border border-slate-200 mb-4 object-contain">
         <span class="text-xs text-slate-500 mb-4 block">微信/WhatsApp 扫码直接联系盛利塑胶</span>
         <a href="https://wa.me/601172218353" target="_blank" class="bg-emerald-600 hover:bg-emerald-700 text-white text-sm font-semibold px-6 py-2.5 rounded-lg shadow transition">
           直接发起 WhatsApp 对话
